@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link href="css/bootstrap.min.css" type="text/css" rel="stylesheet" />
+		<link href="css/play.css" type="text/css" rel="stylesheet" />
+		<script src="js/jquery-3.4.1.js"></script>
+		<script src="js/play.js"></script>
+	</head>
+	<body>
+		<div class="container" style="position: relative;">
+			<div class="row justify-content-center no-gutters">
+				<div class="col-8 no-gutters">
+					<div class="row no-gutters">
+						<div class="col-12 no-gutters">
+							<video id="video" src="video/画.mp4"></video>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row justify-content-center no-gutters">
+				<div class="col-8 no-gutters">
+					<div class="row no-gutters">
+						<div class="col-12 no-gutters">
+							<div id="path"></div>
+							<div id="place"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row justify-content-center no-gutters">
+				<div class="col-8 no-gutters">
+					<div class="row justify-content-start no-gutters">
+						<div class="col-8">
+							<img id="play" src="svg/pause.svg" />
+							<div id="volume-div">
+								<img id="volume" src="svg/volume.svg" />
+								<input id="volumn-range" type="range" max="1" min="0" step="0.1" />
+							</div>
+						</div>
+						<div class="col-4 text-right" style="top: 6px;">
+							<div class="row justify-content-center">
+								<div id="currentTime"></div>
+								/
+								<div id="totalTime"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
